@@ -21,7 +21,7 @@ YELLOW = (255, 255, 0 )
 pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("My First Game -by SHUBHAM ")
+pygame.display.set_caption("SPACE EXPLORER by Shubham Lal ")
 clock = pygame.time.Clock()
 
 # Player Sprite
