@@ -66,7 +66,7 @@ class Mob(pygame.sprite.Sprite):
         # pygame.draw.circle(self.image, RED, self.rect.center, self.radius)
         self.rect.x = random.randrange(WIDTH - self.rect.width)
         self.rect.y = random.randrange(-150, -100)
-        self.speedy = random.randrange(1, 8)
+        self.speedy = random.randrange(1, 2)
         self.speedx =random.randrange(-3, 3)
         self.rot = 0
         self.rot_speed = random.randrange(-8, 8)
